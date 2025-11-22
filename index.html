@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basketball-Scoreboard</title>
+    <link href="https://db.onlinewebfonts.com/c/ab0e848e0e83a85a5af69f5acf1ebe73?family=Cursed+Timer+ULiL"
+        rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="container">
+        <div>
+            <h1 class="home">Home</h1>
+            <h2 id="home-team">0</h2>
+            <button onclick="addpoints('home', 1)">+1</button>
+            <button onclick="addpoints('home', 2)">+2</button>
+            <button onclick="addpoints('home', 3)">+3</button>
+        </div>
+
+        <div>
+            <h1 class="guest">Guest</h1>
+            <h2 id="guest-team">0</h2>
+            <button onclick="addpoints('guest', 1)">+1</button>
+            <button onclick="addpoints('guest', 2)">+2</button>
+            <button onclick="addpoints('guest', 3)">+3</button>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
